@@ -30,6 +30,7 @@ body{
     font-size: 1.25rem;
     margin: auto;
     max-width: 1150px;
+    width: 78%;
     transform: skew(4deg, 4deg); /*skew will ruin the small sreen*/
 }
 
