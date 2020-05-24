@@ -30,7 +30,8 @@ body{
     font-size: 1.25rem;
     margin: auto;
     max-width: 1150px;
-    transform: skew(4deg, 4deg); /*skew will ruin the small sreen*/
+   /* width: 80%;
+    /*transform: skew(4deg, 4deg); /*skew will ruin the small sreen*/
 }
 
 header p{
