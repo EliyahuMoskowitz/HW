@@ -14,11 +14,11 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: .6rem;
     text-align: center;
-    margin-left: 350px;
-    margin-right: 100px;
-    margin-top: 95px;
+    margin-left: 22rem;
+    margin-right: 6.25rem;
+    margin-top: 6rem;
     text-transform: capitalize;
-    overflow-wrap: normal;
+    min-width: min-content;
     transform: rotate(6deg) scale(1.1, 1.5) skew(12deg, 6deg) translate(15px, 5px);
 }
 
@@ -42,7 +42,7 @@ body{
 header p{
     letter-spacing: 0.25rem;
     color: rgb(250, 231, 18);
-    transform: translate(12px, 80px) rotate(9deg) skew(15.25deg);
+    transform: translate(12px, 80px) rotate(10deg) skew(45.25deg);
 }
 
 a{
