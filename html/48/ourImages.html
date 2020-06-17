@@ -11,13 +11,15 @@
     <style>
         body {
             display: flex;
-            flex-direction: column-reverse;
-            flex-wrap: wrap-reverse;
+            /* flex-direction: column-reverse;
+            flex-wrap: wrap-reverse; */
+            flex-flow: column-reverse wrap-reverse;
             align-content: space-around;
             justify-content: space-evenly;
             padding: 2em;
             margin: 3em;
             background-color: lightgreen !important;
+            flex: 1 1 25%;
         }
 
         body::after {
