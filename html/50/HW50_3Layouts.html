@@ -10,6 +10,7 @@
             display: grid;
             grid-template: repeat(7, 1fr) / 1fr;
             gap: 1em;
+            /* grid-auto-rows: 100px; */
         }
 
         div {
@@ -27,7 +28,7 @@
                 background-color: teal;
             }
 
-            .double {
+            div:nth-child(1) {
                 /* grid-column: 1 / span 2; */
                 /* grid-row: 1; */      /*don't really always need*/    
                 /* grid-column: 1 / -1; */
