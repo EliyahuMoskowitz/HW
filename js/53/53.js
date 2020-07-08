@@ -13,8 +13,8 @@ if (age == 24) {        //not sure why it wants me to use === but that actually 
 } else if (age == null || age < 0 || age == '') {
     age = 0;
 } else {
-    if (window.confirm('Are you really ' + age + '?')) {
-        window.alert('you are ' + age + '!');
+    if (window.confirm(`Are you really ${age}?`)) {
+        window.alert(`you are ${age}!`);
     }
 }
 
