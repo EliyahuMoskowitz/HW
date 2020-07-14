@@ -28,7 +28,7 @@ body{
     /* background-color: hotpink; */
     background: rgb(202, 22, 68);
     background: linear-gradient(177deg, rgba(252, 22, 68, 1) 10%, rgba(47, 202, 22, 1) 23%, rgba(138, 31, 141, 1) 63%, rgba(22, 22, 202, 1) 74%, rgba(255, 0, 95, 1) 100%);
-    /* background-image: url(../images/restaurant.jpg);
+    /* background-image: url(../images/radial_graident.jpg); */
     background-size: contain;
     background-repeat: no-repeat; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -101,9 +101,9 @@ img{
 li{
     list-style-position: inside;
     list-style-type: hebrew; 
+    /* list-style-image: url("../images/radial_graident.png"); */
     color: rgb(135, 222, 139); 
     font-size: 25px;
-    /* list-style-image: url(../images/radial_graident.jpg); */
 }
 
 .menu_item{
