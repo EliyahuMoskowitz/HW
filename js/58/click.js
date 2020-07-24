@@ -6,11 +6,16 @@
     cl.style.backgroundColor = 'red';
     cl.style.padding = '1em';
     cl.style.position = 'fixed';
-    cl.style.left = '5px';
+    cl.style.top = '125px';
+    cl.style.left = '105px';
 
     let idRight, idLeft;
-    cl.addEventListener('click', () => {
-        if (!idRight) {
+    cl.addEventListener('click', event => {
+        if (event.ctrlKey) {
+            console.log('gtjb');
+            clearInterval(idRight);
+            clearInterval(idLeft);
+        } else if (!idRight) {
             idRight = setInterval(moveRight, 60);
             cl.innerHTML = 'to the Right!';
             cl.style.color = 'white';
@@ -36,4 +41,21 @@
     function moveLeft() {
         cl.style.left = `${parseInt(cl.style.left) - 4}px`;
     }
+    let accepted;
+    let button = document.getElementById('button');
+    button.addEventListener('click', () => {
+        console.log('license accepted');
+        accepted = true;
+        alert('License accepted. Thank You!');
+        button.remove();
+    });
+
+    let anchor = document.getElementById('anchor');
+    anchor.addEventListener('click', event => {
+        console.log('anchor clicked');
+        if (!accepted) {
+            event.preventDefault();
+            alert('you must first accept the terms to enter the restaraunt');
+        }
+    });
 }());

@@ -1,9 +1,9 @@
 (function () {
     'use strict';
 
-    function createAccount(bal) {
+    function createAccount(bal = 0) {
         return {
-            balance: bal,
+            balance: bal || 0,
             performTransaction: function (amount) {
                 console.log(this.balance);
                 this.balance += amount;
