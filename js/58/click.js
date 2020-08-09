@@ -58,4 +58,27 @@
             alert('you must first accept the terms to enter the restaraunt');
         }
     });
+
+    /*   window.colors = [];
+    for (let i = 0; i < 255; i++) {
+        for (let j = 0; j < 255; j++) {
+            for (let k = 0; k < 255; k++) {
+                colors.push(`rgb(${i}, ${j}, ${k})`);
+            }
+        }
+    }
+    let back = document.getElementById('back');
+
+    function setBackground(x) {
+        back.style.backgroundColor = colors[x];
+    }
+
+    function cycle() {
+        for (let i = 0; i < colors.length; i++) {
+            setTimeout(setBackground(i), 2500);
+        }
+        cycle();
+    }
+    setTimeout(cycle(), 5000);
+*/
 }());
