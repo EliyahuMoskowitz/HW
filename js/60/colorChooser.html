@@ -6,11 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Chooser</title>
     <style>
-        div {
-            display: grid;
-            gap: 40px;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            padding: 55px;
+        @media (min-width: 1000px) {
+            div {
+                display: grid;
+                gap: 40px;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                padding: 55px;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            section {
+                margin: 2rem;
+                padding: 1.6rem;
+            }
+        }
+
+        #bg {
+            position: fixed;
         }
     </style>
 </head>
