@@ -1,3 +1,4 @@
+// very nice!
 (function () {
     'use strict';
     window.app = window.app || {};

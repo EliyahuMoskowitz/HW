@@ -1,7 +1,10 @@
+// Sl - 100 nice!
 (function () {
     'use strict';
 
     //let countA = window.app.counter;
+
+    // SL - no for loops???
     window.app.counter.increment();
     window.app.counter.increment();
     window.app.counter.increment();
